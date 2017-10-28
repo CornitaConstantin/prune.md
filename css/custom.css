@@ -1,5 +1,74 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+/*alinierea la centru*/
+
+.jumbotron {
+    height: 400px;
+    text-align: center;
+    background-image: url('../images/fond.jpg');
+}
+
+
+/*Fontulla textul de sus*/
+
+ul.nav,
+.jumbotron h1 {
+    font-family: 'Slabo 27px', serif;
+}
+
+ul.nav {
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.navbar {
+    height: 100px
+}
+
+
+/*Marimea la buton */
+
+.btn-lg {
+    font-size: 28px;
+}
+
+.emphasis {
+    color: black;
+}
+
+.homepage {
+    text-align: center;
+}
+
+.homepage h2 {
+    text-transform: uppercase;
+    color: #e74c3c
+}
+
+.homepage h3 {}
+
+
+.ion {
+    border-color: red;
+    width: 20%;
+}
+
+.img-text {
+	margin-top: 320px;
+}
+
+.tipuri {
+	width: 370px;
+	height: 270px;
+}
+
+.card_front {
+    width: 200px;
+    height: 200px;
 }
