@@ -29,8 +29,8 @@
 .card {
   position: relative;
   float: left;
-  padding-bottom: 89.61%;
-  width: 107.53%;
+  padding-bottom: 100%;
+  width: 100%;
   text-align: center;
 }
 
@@ -62,8 +62,20 @@
           transition: transform 0.3s;
 }
 
-.card__front {
-  background-color: #ff5078;
+.card__front_1 {
+  background-image: url('../images/tip1.jpg');
+  background-repeat: no-repeat;
+
+}
+
+.card__front_2 {
+  background-image: url('../images/tip2.jpg');
+
+}
+
+.card__front_3 {
+  background-image: url('../images/tip3.jpg');
+
 }
 
 .card__back {
